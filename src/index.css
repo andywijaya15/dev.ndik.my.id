@@ -6,3 +6,7 @@ html,body{
     padding: 0;
     font-family:"Space Grotesk",sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}

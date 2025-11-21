@@ -12,11 +12,11 @@ export const Navbar = () => {
 
       {/* DESKTOP MENU */}
       <div className="hidden md:flex flex-none space-x-4">
-        <a className="btn btn-ghost normal-case" href="#">
+        <a className="btn btn-ghost normal-case" href="#home">
           Home
         </a>
-        <a className="btn btn-ghost normal-case" href="#">
-          About
+        <a className="btn btn-ghost normal-case" href="#my-projects">
+          My Projects
         </a>
         <a className="btn btn-ghost normal-case" href="#">
           Contact
@@ -44,7 +44,7 @@ export const Navbar = () => {
             Home
           </a>
           <a className="btn btn-ghost w-full normal-case" href="#">
-            About
+            My Projects
           </a>
           <a className="btn btn-ghost w-full normal-case" href="#">
             Contact
