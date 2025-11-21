@@ -1,9 +1,13 @@
+import Footer from "../Footer";
+import Hero from "../Hero";
 import { Navbar } from "../Navbar";
 
 export const Home = () => {
   return (
     <>
       <Navbar />
+      <Hero />
+      <Footer />
     </>
   );
 };
