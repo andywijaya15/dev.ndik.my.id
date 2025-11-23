@@ -18,9 +18,6 @@ export const Navbar = () => {
         <a className="btn btn-ghost normal-case" href="#my-projects">
           My Projects
         </a>
-        <a className="btn btn-ghost normal-case" href="#">
-          Contact
-        </a>
       </div>
 
       {/* MOBILE MENU BUTTON */}
@@ -40,14 +37,11 @@ export const Navbar = () => {
       {/* MOBILE MENU */}
       {open && (
         <div className="md:hidden absolute top-16 left-0 w-full bg-base-100 shadow-lg flex flex-col px-4 py-2 space-y-2">
-          <a className="btn btn-ghost w-full normal-case" href="#">
+          <a className="btn btn-ghost w-full normal-case" href="#home">
             Home
           </a>
-          <a className="btn btn-ghost w-full normal-case" href="#">
+          <a className="btn btn-ghost w-full normal-case" href="#my-projects">
             My Projects
-          </a>
-          <a className="btn btn-ghost w-full normal-case" href="#">
-            Contact
           </a>
         </div>
       )}

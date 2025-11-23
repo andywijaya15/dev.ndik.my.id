@@ -4,28 +4,26 @@ export default function Hero() {
   return (
     <>
       <div
-        className="hero min-h-screen"
+        className="hero w-full min-h-screen"
         id="home"
         style={{
           backgroundImage: `url("/mm_photography-937.jpg")`,
         }}
       >
         <div className="hero-overlay"></div>
-        <div className="absolute">
-          <div className="hero-content flex-col lg:flex-row">
-            <img src="DSC01240.jpeg" className="max-w-sm rounded-lg shadow-2xl" />
-            <div>
-              <h1 className="text-5xl font-bold">Andy Wijaya</h1>
-              <p className="py-6">
-                I develop APIs, manage servers, and implement monitoring for scalable and stable applications.
-              </p>
-            </div>
+        <div className="hero-content flex flex-col lg:flex-row items-center lg:items-start text-center lg:text-left px-6">
+          {/* <img src="DSC01240.jpeg" className="max-w-sm rounded-lg shadow-2xl" /> */}
+          <div>
+            <h1 className="text-4xl sm:text-5xl font-bold">Andy Wijaya</h1>
+            <p className="py-6 max-w-md">
+              I develop APIs, manage servers, and implement monitoring for scalable and stable applications.
+            </p>
           </div>
         </div>
       </div>
       <section className="bg-base-100 py-20 px-6 min-h-screen" id="my-projects">
-        <h2 className="text-4xl font-bold mb-10 text-center">My Projects</h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-center">My Projects</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <Card
             title="Warehouse Managemenet System"
             desc="A full-featured warehouse management system that tracks inventory, automates stock updates, and integrates with ERP solutions for real-time monitoring."
